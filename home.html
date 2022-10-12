@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мој Сервис</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./home.html">Почетна</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Понуди
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./aircon.html">Клими</a></li>
+                  <li><a class="dropdown-item" href="./fridge.html">Фрижидери</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Контакт</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> --> 
+          </div>
+        </div>
+      </nav>
+      
+      <h2 class="text-center">Мој Сервис</h2>
+    </header>
+  </head>
+  <body class="pb-3">
+    <h1 class="text-center">Добредојдовте</h1>
+    <div class="mt-4">
+      <p class="border mb-2 fs-5 bg-opacity-25 bg-secondary m-4 p-2 rounded-pill text-center">Мој Сервис е сајт каде можете да добиете повеќе информации за климите, фрижидерите и понуда на сервис за истите.</p>
+      <div class="row row-cols-1 row-cols-md-2 me-2 ms-2 g-4">
+        <div class="col pb-5">
+          <div class="card h-100">
+            <img src="./img/airconhomee.jpg" class="card-img-top" alt="Клими">
+            <div class="card-body">
+              <h5 class="card-title">Клими</h5>
+              <p class="card-text">Климите се секојдневие во нашиот дом и како се останато потребно е и тие да бидат одржувани и на време сервисирани како би го искористиле нивниот потенцијал.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col pb-5">
+          <div class="card h-100">
+            <img src="./img/fridgehome.jpg" class="card-img-top" alt="Фрижидери">
+            <div class="card-body">
+              <h5 class="card-title">Фрижидери</h5>
+              <p class="card-text">Индустриските фрижидери се дел од секој инвертар на маркетите и рестораните, кои со редовно одржување и сервисирање може да се искористи максимално нивниот потенцијал.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
